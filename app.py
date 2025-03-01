@@ -2,8 +2,8 @@ import requests
 import os
 
 # Configurações
-API_KEY = "2a7cda9be7msh853147a58e5655fp119413jsn1e5ea19e8042"  #os.getenv('OPENWEATHERMAP_API_KEY')  # Chave da API obtida das variáveis de ambiente
-CITY = 'São Paulo'
+API_KEY = os.getenv('OPENWEATHERMAP_API_KEY')  # Chave da API obtida das variáveis de ambiente
+CITY = 'Valencia'
 OUTPUT_FILE = 'index.html'
 
 # Função para buscar dados da API
